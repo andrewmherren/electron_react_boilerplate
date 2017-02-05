@@ -1,5 +1,5 @@
 # electron_boilerplate
-boiler plate for personal electron apps.
+Boiler plate for personal electron apps. This includes react, es6 support, and various other packages I frequently use. It is not a minimal install but could be used as a starting point.
 
 To use:
 ```
@@ -16,7 +16,7 @@ To bundle js:
 ```
 npm run build
 ```
-To start electron app:
+To start electron app (run this while dev server is running for hot reload):
 ```
 npm start-electron
 ```
@@ -26,4 +26,7 @@ npm run build-win64
 npm run build-win32
 npm run build-linux64
 npm run build-linux32
+npm run build-ios
+npm run build-osx
+rpm run build-all
 ```
