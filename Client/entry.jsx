@@ -6,7 +6,7 @@ require('./Styles/index.styl')
 
 import jQuery from 'jquery'
 window.jQuery = jQuery
-require('bootstrap3')
+require('bootstrap')
 
 class Entry extends React.Component{
   render () {
