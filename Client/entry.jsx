@@ -4,6 +4,10 @@ import ReactDOM from 'react-dom'
 // Import css and fonts
 require('./Styles/index.styl')
 
+import jQuery from 'jquery'
+window.jQuery = jQuery
+require('bootstrap3')
+
 class Entry extends React.Component{
   render () {
     return (
